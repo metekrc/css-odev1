@@ -1,0 +1,26 @@
+/******  Linkler İcin Ortaya Hizalama Baslangıcı ******/
+.centered-link {
+    display: inline-block;
+    text-align: center;
+}
+/******  Linkler İcin Ortaya Hizalama Sonu ******/
+
+/******  Baslıklar Icin Renk Ayarlaması Baslangıcı ******/
+h1 {
+    color:red;
+}
+
+h2 {
+    color:purple;
+}
+
+h3 {
+    color:goldenrod;
+}
+/******  Baslıklar Icin Renk Ayarlaması Sonu ******/
+
+/******  Body Icin Font Baslangıcı ******/
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/******  Body Icin Font Sonu ******/

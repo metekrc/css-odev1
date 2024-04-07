@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürünlerimiz</title>
+    <style>
+        img {
+            width:300px;
+            height:300px;
+        }
+        /* burada linkleri ortaya hizalıyorum */
+        .center-links {
+            text-align: center
+        }
+        /* burada linklerin arasındaki bosluklarını olusturuyorum */
+        .center-links a {
+            margin-right:5px;
+        }
+        /* ordered list icerisindeki sayıların ortaya hizalanması icin yazdım */
+         ol {
+            list-style-position: inside;
+        }
+    </style>
+        <!-- burada external olarak css kullanıyorum -->
+        <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- default olarak tum sayfalara ekledigim baslıklar baslangıcı -->
+    <header>
+        <h1 align="center">Müzik Dükkanım</h1>
+        <!-- Tıklanabilicek Linkli Sayfalar Başlangıcı -->
+        <div class="center-links">
+            <a href="index.html">
+                Ana Sayfa
+            </a>
+            <a href="product.html">
+                Ürünlerimiz
+            </a>
+            <a href="about-us.html">
+                Hakkımızda
+            </a>
+        </div>
+        <!-- Tıklanabilicek Linkli Sayfalar Sonu -->
+        <h2 align="center">Ürünlerimiz</h2>
+    </header>
+    <!-- default olarak tum sayfalara ekledigim baslıklar sonu -->
+
+    <!-- urunlerin baslangıcı -->
+    <section>
+        <article>
+            <ol align="center">
+                <img src="fotograflar/elektrogitar.jpg" alt="Fenix Elektro Gitar">
+                <li>Fenix FSS-10MLPB Elektro Gitar (Mavi) <strong>5.600₺</strong></li>
+
+                <img src="fotograflar/gibson.jpg" alt="Gibson Elektro Gitar">
+                <li>Gibson Slash "Victoria" Les Paul Elektro Gitar (Goldtop) <strong>180.000₺</strong></li>
+
+                <img src="fotograflar/donnerdavul.jpg" alt="Donner Davul">
+                <li>Donner DDS-520 5-Parça 22" Akustik Davul (Kırmızı) <strong>28.500₺</strong></li>
+
+                <img src="fotograflar/easterdavul.jpg" alt="Eastar Davul">
+                <li>Eastar EDS-480BK 22" 5-Parça Akustik Davul (Mirror Black) <strong>16.000₺</strong></li>
+
+                <img src="fotograflar/johannespiyano.jpg" alt="Johannes Piyano">
+                <li>Johannes Seiler Model 160TW Traditio Akustik Kuyruklu Piyano (Beyaz) <strong>890.000₺</strong></li>
+                
+                <img src="fotograflar/blutherpiyano.jpg" alt="Blüthner Piyano">
+                <li>Blüthner Grand Concert Model1 Akustik Kuyruklu Piyano (Parlak Siyah) <strong>5.500.000₺</strong></li>
+
+                <img src="fotograflar/easterkeman.jpg" alt="Easter Keman">
+                <li>Eastar EVA-3 4/4 Keman Seti (Natural) <strong>4.500₺</strong></li>
+
+                <img src="fotograflar/stentorkeman.jpg" alt="Stentor Keman">
+                <li>Stentor 1583/A Ham Keman 4/4 (Beyaz) <strong>9.000₺</strong></li>
+            </ol>
+        </article>
+    </section>
+    <!-- urunlerın sonu -->
+</body>
+</html>
